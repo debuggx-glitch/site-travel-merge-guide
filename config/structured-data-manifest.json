@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "seo-geo.structured-data.v1",
+  "pages": [
+    {
+      "route": "/guides/travel-merge-beginner-route/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://travelmergeguide.xyz/#video-game",
+      "articleAuthorEntityId": "https://travelmergeguide.xyz/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/item-chains-and-sources/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://travelmergeguide.xyz/#video-game",
+      "articleAuthorEntityId": "https://travelmergeguide.xyz/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/order-priority/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://travelmergeguide.xyz/#video-game",
+      "articleAuthorEntityId": "https://travelmergeguide.xyz/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/fix-a-full-board/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://travelmergeguide.xyz/#video-game",
+      "articleAuthorEntityId": "https://travelmergeguide.xyz/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/coins-and-spending/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://travelmergeguide.xyz/#video-game",
+      "articleAuthorEntityId": "https://travelmergeguide.xyz/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/basket-generator-cooldown/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://travelmergeguide.xyz/#video-game",
+      "articleAuthorEntityId": "https://travelmergeguide.xyz/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    }
+  ]
+}

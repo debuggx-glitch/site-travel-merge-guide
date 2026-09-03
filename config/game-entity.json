@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "seo-geo.game-entity.v1",
+  "requiredTypes": [
+    "WebSite",
+    "Organization",
+    "VideoGame"
+  ],
+  "website": {
+    "entityId": "https://travelmergeguide.xyz/#website",
+    "name": "Travel Merge Guide",
+    "url": "https://travelmergeguide.xyz/"
+  },
+  "organization": {
+    "entityId": "https://travelmergeguide.xyz/#organization",
+    "name": "Travel Merge Guide Editorial Team",
+    "url": "https://travelmergeguide.xyz/about/",
+    "fictionalExpertPersonasAllowed": false
+  },
+  "game": {
+    "schemaType": "VideoGame",
+    "entityId": "https://travelmergeguide.xyz/#video-game",
+    "name": "Travel Merge",
+    "url": "https://poki.com/en/g/travel-merge",
+    "publisher": "Potato Jam"
+  },
+  "crawlerPolicy": {
+    "Googlebot": "allow",
+    "OAI-SearchBot": "allow",
+    "PerplexityBot": "allow"
+  }
+}
