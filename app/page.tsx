@@ -1,14 +1,14 @@
 import type {Metadata} from "next";
 import Image from "next/image";
 import Link from "next/link";
-import {HomeAd} from "@/components/ad-placements";
+import {HomeAd, HomeSideAd} from "@/components/ad-placements";
 import {guides} from "@/lib/guides";
 import {site} from "@/lib/site";
 
 export const metadata:Metadata={alternates:{canonical:"/"}};
 export default function Home(){return <main className="travel-journal">
   <HomeAd/>
-  <section className="cover-story"><div className="cover-copy"><p className="issue">Route notes · Issue 01</p><h1>Merge smarter.<br/>Travel farther.</h1><p>{site.description}</p><Link className="ticket" href={`/guides/${guides[0].slug}/`}><span>Begin here</span><b>Boarding →</b></Link></div><div className="photo-stack"><figure><Image src={site.visual} width={site.visualWidth} height={site.visualHeight} sizes="(max-width: 800px) 88vw, 43vw" priority alt={site.visualAlt}/><figcaption>Official game image · current boards may vary</figcaption></figure><div className="postcard-note">Plan the next pair,<br/>not the whole board.</div></div></section>
+  <div className="home-hero-shell"><section className="cover-story"><div className="cover-copy"><p className="issue">Route notes · Issue 01</p><h1>Merge smarter.<br/>Travel farther.</h1><p>{site.description}</p><Link className="ticket" href={`/guides/${guides[0].slug}/`}><span>Begin here</span><b>Boarding →</b></Link></div><div className="photo-stack"><figure><Image src={site.visual} width={site.visualWidth} height={site.visualHeight} sizes="(max-width: 800px) 88vw, 43vw" priority alt={site.visualAlt}/><figcaption>Official game image · current boards may vary</figcaption></figure><div className="postcard-note">Plan the next pair,<br/>not the whole board.</div></div></section><HomeSideAd/></div>
   <section className="route-strip"><span>01 · Find the blocker</span><span>02 · Match one pair</span><span>03 · Save the scarce piece</span><span>04 · Recheck the route</span></section>
   <section className="guide-itinerary" id="itinerary"><header><p className="issue">Your itinerary</p><h2>Field notes for every stop.</h2><p>{guides.length} focused guides, arranged like a trip you can resume at any point.</p></header><div className="postcard-grid">{guides.map((guide,index)=><article key={guide.slug} className={index%3===0?"wide":""}><span className="pin">{String(index+1).padStart(2,"0")}</span><p>{guide.category}</p><h3><Link href={`/guides/${guide.slug}/`}>{guide.title}</Link></h3><p>{guide.description}</p><Link href={`/guides/${guide.slug}/`}>Read the note →</Link></article>)}</div></section>
 </main>}

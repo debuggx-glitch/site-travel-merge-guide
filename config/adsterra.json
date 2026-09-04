@@ -6,6 +6,7 @@
     "socialBar": {"placementId":"31070688","format":"social_bar","src":"https://incorporatebreadthave.com/e7/d6/b0/e7d6b08c99214a07c5b9d7357d3c2b23.js"},
     "homeBannerDesktop": {"placementId":"31070690","format":"banner","src":"https://incorporatebreadthave.com/99913e7cc15ed62cabb5b922bbd0d00a/invoke.js","key":"99913e7cc15ed62cabb5b922bbd0d00a","width":728,"height":90},
     "homeBannerMobile": {"placementId":"31070689","format":"banner","src":"https://incorporatebreadthave.com/0964e3faeac4df59c6cb7db1f2f00a84/invoke.js","key":"0964e3faeac4df59c6cb7db1f2f00a84","width":320,"height":50},
+    "homeSideDesktop": {"placementId":"31084088","format":"banner","src":"https://incorporatebreadthave.com/b5bfd91b0e82a03fc49d764680b51cb3/invoke.js","key":"b5bfd91b0e82a03fc49d764680b51cb3","width":300,"height":250},
     "guideNative": {"placementId":"31070687","format":"native_banner","src":"https://incorporatebreadthave.com/13f343ef5b0fc0ede4b26a387baea7fe/invoke.js","containerId":"container-13f343ef5b0fc0ede4b26a387baea7fe"}
   }
 }
