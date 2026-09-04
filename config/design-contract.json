@@ -6,10 +6,11 @@
   "palette": {"primary":"#6e2233","secondary":"#efb84d","accent":"#6d7e45","surface":"#f4ebd9","text":"#312720"},
   "fingerprint": {"navigationModel":"passport-journal-masthead","homepageComposition":"editorial-cover-plus-photo-stack-and-postcards","articleComposition":"single-column-route-timeline-with-pocket-answer","cardSilhouette":"rotated-paper-postcards","contentDensity":"airy-editorial","mobileTransformation":"single-column-cover-and-route-stops","adPlacementPattern":"route-strip-break-and-timeline-break"},
   "adInventory": [
-    {"slotName":"home_banner_desktop","status":"active","pageTypes":["home"],"position":"after_route_strip_before_itinerary","format":"banner","size":"728x90","zoneRef":"homeBannerDesktop","maxPerPage":1,"ga4Placement":"home_banner_desktop"},
-    {"slotName":"home_banner_mobile","status":"active","pageTypes":["home"],"position":"after_route_strip_before_itinerary","format":"banner","size":"320x50","zoneRef":"homeBannerMobile","maxPerPage":1,"ga4Placement":"home_banner_mobile"},
-    {"slotName":"guide_native_mid","status":"active","pageTypes":["guide"],"position":"after_route_stop_4","format":"native_banner","size":"responsive","zoneRef":"guideNative","maxPerPage":1,"ga4Placement":"guide_native_mid"},
+    {"slotName":"home_banner_desktop","status":"active","pageTypes":["home"],"position":"before_hero","format":"banner","size":"728x90","zoneRef":"homeBannerDesktop","maxPerPage":1,"ga4Placement":"home_banner_desktop"},
+    {"slotName":"home_banner_mobile","status":"active","pageTypes":["home"],"position":"before_hero","format":"banner","size":"320x50","zoneRef":"homeBannerMobile","maxPerPage":1,"ga4Placement":"home_banner_mobile"},
+    {"slotName":"guide_native_mid","status":"active","pageTypes":["guide"],"position":"after_quick_answer_before_lead_visual","format":"native_banner","size":"responsive","zoneRef":"guideNative","maxPerPage":1,"ga4Placement":"guide_native_mid"},
     {"slotName":"social_global","status":"active","pageTypes":["all"],"position":"global_after_interactive","format":"social_bar","size":"provider_responsive","zoneRef":"socialBar","maxPerPage":1,"ga4Placement":"social_global"},
+    {"slotName":"home_journal_side","status":"planned_inactive","pageTypes":["home"],"position":"desktop_hero_side_rail","format":"banner","size":"300x250","zoneRef":null,"maxPerPage":1,"ga4Placement":"home_journal_side"},
     {"slotName":"home_postcard_mid","status":"planned_inactive","pageTypes":["home"],"position":"between_postcard_rows","format":"banner","size":"468x60","zoneRef":null,"maxPerPage":1,"ga4Placement":"home_postcard_mid"}
   ]
 }
